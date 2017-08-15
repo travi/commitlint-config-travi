@@ -3,5 +3,9 @@ notifications:
   email: false
 branches:
   except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
-after_install: npm ls >/dev/null
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
+before_script: npm ls >/dev/null
+after_success: npm run semantic-release
+env:
+  global:
+    secure: zoINPGgdDFJsFbdwlQWVgeMz0LIhwNlS/YzILX4WhewLKN+Bu2Jwvb5ZXckOukigolRXMRYjfrbPuPsgJ5/7/LyZXojShLte5dVmZHPSriBZUD82a4WGyHT/CI3bn9o1+/eaj78zJQCNg/bbCU/4sWdG1wc/1Xt3acwqZs5jEZ5yZw/HdZ2ZY5oODgix3PCafcb+L6P5XBKQKlDuDKsk3k83HMDCPzYGjfNUcHCZVUI+eTVuX4FFbOJNivYePg+ypsuholhMY5N5xHp8I2cT5wzCX9Et8+N4kT6CRKcRo4k8Tmcek6CmdU7wweI2AK/svJMESOMa4os3COWYHVsiDEfw9dhRvgLOKo+KLN3Np4vaYST0Kem9xXTpkbwVgeOOMnCwhK9EHdKoBjiRO1rzocHOT4rnQfxVtBCqYuzMzeaXHzxcYgHlT6v7fcHVOCXWg3/Gc/lkc6/ZJuixHYlz5nyVuuAilPufA+2hGXNDi1k/90y5zr1oG+5bOK+2WY1hfRAlMxIfSs4EOKihWr6IQqAouNi81/EhS57bs+yGUxe5IbeZo66GGdUoo8k2YpHz98zkU6nRM0DTYgsxyRjlPCUUuUfggKeYrRD9ORIzBvoRZ1acRRCExEmG2482AmYs2Q1wbsvzIJzKEvEqKZdmjoDJxorh173w4rHhj3IbXsc=
