@@ -5,3 +5,4 @@
 [![Build Status](https://img.shields.io/travis/travi/commitlint-config-travi.svg?style=flat)](https://travis-ci.org/travi/commitlint-config-travi)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/commitlint-config-travi.svg)](https://greenkeeper.io/)
