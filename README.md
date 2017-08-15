@@ -19,7 +19,7 @@ $ npm install commitlint-config-travi -D
 ### Define the config for your project
 
 ```sh
-$ echo "module.exports = {extends: ['commitlint-config-travi']};" > commitlint.config.js
+$ echo "module.exports = {extends: ['travi']};" > commitlint.config.js
 ```
 
 ### Define the npm script for [husky](https://github.com/typicode/husky)
