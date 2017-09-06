@@ -8,6 +8,19 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/travi/commitlint-config-travi.svg)](https://greenkeeper.io/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
+## Purpose
+
+This is my [shareable config](https://marionebl.github.io/commitlint/#/concepts-shareable-config)
+for [commitlint](https://github.com/marionebl/commitlint). My config mostly
+follows [angular commit convention](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit),
+as implemented in [@commitlint/config-angular](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-angular).
+
+Beyond what is implemented in the `@commitlint/config-angular`, I also enable
+a [type](https://marionebl.github.io/commitlint/#/reference-rules?id=type-enum)
+of `wip` for commits that don't fit the default types. This is most often
+because the does not complete one of default types, but is instead progress
+toward one.
+
 ## Usage
 
 ### Installation
