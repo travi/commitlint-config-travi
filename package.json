@@ -35,7 +35,7 @@
     "semantic-release": "8.0.3"
   },
   "dependencies": {
-    "@commitlint/cli": "4.0.0",
+    "@commitlint/cli": "4.1.0",
     "@commitlint/config-angular": "3.1.1"
   }
 }
