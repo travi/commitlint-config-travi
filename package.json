@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "@commitlint/cli": "4.2.0",
-    "@commitlint/config-angular": "4.2.0"
+    "@commitlint/config-angular": "4.2.1"
   }
 }
