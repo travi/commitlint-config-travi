@@ -1,4 +1,4 @@
-const config = require('@commitlint/config-angular');
+const config = require('@commitlint/config-conventional');
 
 module.exports = {
   extends: ['@commitlint/config-angular'],

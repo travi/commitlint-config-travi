@@ -13,7 +13,8 @@
 This is my [shareable config](https://marionebl.github.io/commitlint/#/concepts-shareable-config)
 for [commitlint](https://github.com/marionebl/commitlint). My config mostly
 follows [angular commit convention](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit),
-as implemented in [@commitlint/config-angular](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-angular).
+as implemented in the ["soft fork"](https://github.com/marionebl/commitlint/issues/146)
+as [@commitlint/config-conventional](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-conventional).
 
 Beyond what is implemented in the `@commitlint/config-angular`, I also enable
 a [type](https://marionebl.github.io/commitlint/#/reference-rules?id=type-enum)
