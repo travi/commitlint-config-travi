@@ -26,7 +26,7 @@
     }
   },
   "devDependencies": {
-    "@commitlint/prompt": "5.2.6",
+    "@commitlint/prompt": "5.2.8",
     "@travi/eslint-config-travi": "1.5.14",
     "globstar": "1.0.0",
     "husky": "0.14.3",
