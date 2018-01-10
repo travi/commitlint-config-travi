@@ -16,7 +16,7 @@ follows [angular commit convention](https://github.com/angular/angular.js/blob/m
 as implemented in the ["soft fork"](https://github.com/marionebl/commitlint/issues/146)
 as [@commitlint/config-conventional](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-conventional).
 
-Beyond what is implemented in the `@commitlint/config-angular`, I also enable
+Beyond what is implemented in the `@commitlint/config-conventional`, I also enable
 a [type](https://marionebl.github.io/commitlint/#/reference-rules?id=type-enum)
 of `wip` for commits that don't fit the default types. This is most often
 because the does not complete one of default types, but is instead progress
