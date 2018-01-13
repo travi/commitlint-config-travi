@@ -1,6 +1,7 @@
 # shareable config for [commitlint](https://github.com/marionebl/commitlint)
 
 [![license](https://img.shields.io/github/license/travi/commitlint-config-travi.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/commitlint-config-travi.svg?maxAge=2592000)](https://www.npmjs.com/package/commitlint-config-travi)
 
 [![Build Status](https://img.shields.io/travis/travi/commitlint-config-travi.svg?style=flat)](https://travis-ci.org/travi/commitlint-config-travi)
 
