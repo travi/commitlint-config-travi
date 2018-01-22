@@ -15,7 +15,9 @@
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "preversion": "npm test",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "greenkeeper:update-lockfile": "greenkeeper-lockfile-update",
+    "greenkeeper:upload-lockfile": "greenkeeper-lockfile-upload"
   },
   "publishConfig": {
     "access": "public"
@@ -29,6 +31,7 @@
     "@commitlint/prompt": "6.0.2",
     "@travi/eslint-config-travi": "1.5.14",
     "globstar": "1.0.0",
+    "greenkeeper-lockfile": "1.13.0",
     "husky": "0.15.0-rc.2",
     "markdownlint-cli": "0.6.0",
     "npm-run-all": "4.1.2",
