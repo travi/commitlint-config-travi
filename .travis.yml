@@ -5,8 +5,8 @@ branches:
   except:
   - "/^v\\d+\\.\\d+\\.\\d+$/"
 before_script:
-- npm ls >/dev/null
 - npm run greenkeeper:update-lockfile
+- npm ls >/dev/null
 after_script: npm run greenkeeper:upload-lockfile
 deploy:
   provider: script
