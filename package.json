@@ -37,7 +37,7 @@
     "semantic-release": "12.4.1"
   },
   "dependencies": {
-    "@commitlint/cli": "6.0.5",
+    "@commitlint/cli": "6.1.0",
     "@commitlint/config-conventional": "6.1.0",
     "cz-conventional-changelog": "2.1.0"
   }
