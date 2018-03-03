@@ -28,7 +28,7 @@
     }
   },
   "devDependencies": {
-    "@travi/eslint-config-travi": "1.6.9",
+    "@travi/eslint-config-travi": "1.6.10",
     "globstar": "1.0.0",
     "greenkeeper-lockfile": "1.14.0",
     "husky": "0.15.0-rc.2",
