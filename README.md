@@ -37,12 +37,15 @@ $ npm install commitlint-config-travi -D
 $ echo "module.exports = {extends: ['travi']};" > .commitlintrc.js
 ```
 
-### Define the npm script for [husky](https://github.com/typicode/husky)
+### Define the [husky](https://github.com/typicode/husky) hook
+
+([in a `.huskyrc.json`](https://github.com/typicode/husky#upgrading-from-014),
+for example)
 
 ```json
 {
-  "scripts": {
-    "commitmsg": "commitlint -e"
+  "hooks": {
+    "commit-msg": "commitlint -e"
   }
 }
 ```
