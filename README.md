@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/travi/commitlint-config-travi.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/commitlint-config-travi.svg?maxAge=2592000)](https://www.npmjs.com/package/commitlint-config-travi)
 
-[![Build Status](https://img.shields.io/travis/travi/commitlint-config-travi.svg?style=flat)](https://travis-ci.org/travi/commitlint-config-travi)
+[![Build Status](https://img.shields.io/travis/com/travi/commitlint-config-travi.svg?style=flat)](https://travis-ci.com/travi/commitlint-config-travi)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/travi/commitlint-config-travi.svg)](https://greenkeeper.io/)
