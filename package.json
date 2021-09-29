@@ -11,6 +11,7 @@
   "scripts": {
     "lint:md": "remark --quiet --frail .",
     "lint:js": "eslint . --cache",
+    "lint:peer": "npm ls >/dev/null",
     "test": "npm-run-all --print-label --parallel lint:*",
     "commitmsg": "commitlint -e",
     "precommit": "npm test",
@@ -33,7 +34,6 @@
     "remark-preset-lint-travi": "2.0.5"
   },
   "dependencies": {
-    "@commitlint/cli": "13.2.0",
-    "@commitlint/config-conventional": "13.2.0"
+    "@form8ion/commitlint-config": "1.0.20"
   }
 }
