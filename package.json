@@ -13,9 +13,8 @@
     "lint:js": "eslint . --cache",
     "lint:peer": "npm ls >/dev/null",
     "test": "npm-run-all --print-label --parallel lint:*",
-    "commitmsg": "commitlint -e",
-    "precommit": "npm test",
-    "prepack": "npm test"
+    "prepack": "npm test",
+    "prepare": "husky install"
   },
   "publishConfig": {
     "access": "public"
