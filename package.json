@@ -33,6 +33,6 @@
     "remark-preset-lint-travi": "2.0.9"
   },
   "dependencies": {
-    "@form8ion/commitlint-config": "1.0.28"
+    "@form8ion/commitlint-config": "1.0.29"
   }
 }
