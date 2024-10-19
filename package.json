@@ -27,7 +27,7 @@
     }
   },
   "dependencies": {
-    "@form8ion/commitlint-config": "1.0.76"
+    "@form8ion/commitlint-config": "2.0.0"
   },
   "devDependencies": {
     "@travi/eslint-config-travi": "1.8.8",
